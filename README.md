@@ -9,7 +9,7 @@ The project follows a real-world analytics workflow beginning with data understa
 
 The analysis focuses on answering practical business questions related to sales performance, customer purchasing behavior, product performance, seller performance, logistics, customer reviews, and revenue growth.
 
-# 📌 Business Problem
+## 📌 Business Problem
 
 E-commerce companies generate massive volumes of transactional data every day. However, without proper analysis, it becomes difficult to answer critical business questions such as:
 
@@ -24,7 +24,7 @@ E-commerce companies generate massive volumes of transactional data every day. H
 
 This project addresses these business challenges by applying modern data analytics techniques using Python, SQL Server, and Power BI.
 
-# 🎯 Project Objectives
+## 🎯 Project Objectives
 
 The primary objectives of this project are:
 
@@ -38,7 +38,7 @@ The primary objectives of this project are:
 - Develop an interactive Power BI dashboard *(In Progress)*.
 - Build a Sales Forecasting model *(Planned)*.
 
-# 🛠 Tech Stack
+## 🛠 Tech Stack
 
 | Category | Technologies |
 |-----------|--------------|
@@ -50,25 +50,55 @@ The primary objectives of this project are:
 | Development Environment | Jupyter Notebook |
 | Version Control | Git & GitHub |
 
-# 📂 Dataset Information
+## 🎯Skills Demonstrated
+
+### Programming
+- Python
+- SQL (T-SQL)
+
+### Data Analysis
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Customer Segmentation (RFM)
+
+### Visualization
+- Matplotlib
+- Seaborn
+- Power BI
+
+### Database
+- SQL Server
+- Joins
+- CTEs
+- Window Functions
+- Views
+
+### Business Analytics
+- Customer Behavior Analysis
+- Sales Analysis
+- Product Performance Analysis
+- Business Insights
+
+## 📂 Dataset Information
 
 This project uses a relational Flipkart e-commerce dataset consisting of multiple interconnected tables. The dataset captures customer information, orders, products, sellers, payments, logistics, customer reviews, returns, and engineered features for advanced analytics.
 
-| Dataset | Description | Rows | Columns |
-|----------|-------------|-----:|--------:|
-| Customers | Customer demographic and profile information | 25,000 | 10 |
-| Orders | Order-level transaction details | 120,000 | 10 |
-| OrderItems | Product-level order transactions | 350,000 | 9 |
-| Products | Product catalog and pricing information | 8,000 | 13 |
-| Categories | Product category mapping | 40 | 3 |
-| Sellers | Seller information and locations | 500 | 6 |
-| Payments | Payment transaction details | 120,000 | 7 |
-| Shipments | Shipping and delivery information | 60,067 | 10 |
-| Returns | Returned product records | 18,000 | 6 |
-| Reviews | Customer ratings and review details | 75,000 | 8 |
+| Dataset | Rows | Columns |
+|---------|-----:|--------:|
+| Customers | 25,000 | 10 |
+| Orders | 120,000 | 10 |
+| OrderItems | 350,000 | 9 |
+| Products | 8,000 | 13 |
+| Categories | 40 | 3 |
+| Sellers | 500 | 6 |
+| Payments | 120,000 | 7 |
+| Shipments | 60,067 | 10 |
+| Returns | 18,000 | 6 |
+| Reviews | 75,000 | 8 |
 
-Project Workflow
-# 🔄 Project Workflow
+
+## 🔄 Project Workflow
 
 ```text
 Raw Dataset
@@ -104,12 +134,14 @@ Sales Forecasting (Planned)
 Business Recommendations
 ```
 
-# Repository Structure
+## Repository Structure
 
+# 📁 Repository Structure
+
+```text
 Flipkart-Business-Analytics/
-
 │
-├── datasets/
+├── 📂 datasets/
 │   ├── Customers.csv
 │   ├── Orders.csv
 │   ├── OrderItems.csv
@@ -121,30 +153,33 @@ Flipkart-Business-Analytics/
 │   ├── Returns.csv
 │   ├── Reviews.csv
 │
-├── notebooks/
+├── 📂 notebooks/
 │   ├── 01_Data_Cleaning.ipynb
 │   ├── 02_Exploratory_Data_Analysis.ipynb
 │   ├── 03_Feature_Engineering.ipynb
 │   ├── 04_SQL_Data_Export.ipynb
 │   ├── 05_RFM_Segmentation.ipynb
-│   └── 06_Sales_Forecasting.ipynb (later)
+│   └── 06_Sales_Forecasting.ipynb (Planned)
 │
-├── sql/
+├── 📂 sql/
 │   └── SQL_Questions.sql
 │
-├── powerbi/
-│   └── Flipkart_Dashboard.pbix (in progress*)
+├── 📂 powerbi/
+│   └── Flipkart_Dashboard.pbix (In progress*)
 │
-├── images/
+├── 📂 images/
 │   ├── workflow.png
 │   ├── dashboard.png
 │   └── eda/
 │
 ├── README.md
-│
-└── requirements.txt
+├── requirements.txt
+└── LICENSE
+```
 
-# Business Questions
+
+
+## Business Questions
 
 ## 📊 Exploratory Data Analysis
 
@@ -191,7 +226,7 @@ The exploratory data analysis focuses on answering key business questions across
 - Which customers are Lost?
 - Which customer segments generate the highest revenue?
 
-  # 📌 Key Findings
+## 📌 Key Findings
 
 - A small group of customers contributes a significant portion of overall revenue.
 - Product category performance varies considerably across different regions.
@@ -200,7 +235,7 @@ The exploratory data analysis focuses on answering key business questions across
 - RFM segmentation successfully identifies high-value, loyal, and at-risk customers.
 - Revenue and order volume show clear seasonal and monthly purchasing trends.
 
-  # 🚀 Project Highlights
+## 🚀 Project Highlights
 
 - Cleaned and transformed a multi-table Flipkart e-commerce dataset using Python.
 - Performed comprehensive exploratory data analysis (EDA) to uncover sales and customer trends.
@@ -210,7 +245,7 @@ The exploratory data analysis focuses on answering key business questions across
 - Performed RFM analysis to segment customers based on purchasing behavior.
 - Generated actionable business insights to support data-driven decision making.
 
-  # 📈 Project Status
+## 📈 Project Status
 
 | Module | Status |
 |---------|:------:|
@@ -225,7 +260,7 @@ The exploratory data analysis focuses on answering key business questions across
 | Power BI Dashboard | 🚧 In Progress |
 | Sales Forecasting | ⏳ Planned |
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Prateek Khicher**
 
