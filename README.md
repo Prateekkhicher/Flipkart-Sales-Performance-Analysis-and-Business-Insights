@@ -49,3 +49,192 @@ The primary objectives of this project are:
 | Business Intelligence | Power BI *(In Progress)* |
 | Development Environment | Jupyter Notebook |
 | Version Control | Git & GitHub |
+
+# 📂 Dataset Information
+
+This project uses a relational Flipkart e-commerce dataset consisting of multiple interconnected tables. The dataset captures customer information, orders, products, sellers, payments, logistics, customer reviews, returns, and engineered features for advanced analytics.
+
+| Dataset | Description | Rows | Columns |
+|----------|-------------|-----:|--------:|
+| Customers | Customer demographic and profile information | 25,000 | 10 |
+| Orders | Order-level transaction details | 120,000 | 10 |
+| OrderItems | Product-level order transactions | 350,000 | 9 |
+| Products | Product catalog and pricing information | 8,000 | 13 |
+| Categories | Product category mapping | 40 | 3 |
+| Sellers | Seller information and locations | 500 | 6 |
+| Payments | Payment transaction details | 120,000 | 7 |
+| Shipments | Shipping and delivery information | 60,067 | 10 |
+| Returns | Returned product records | 18,000 | 6 |
+| Reviews | Customer ratings and review details | 75,000 | 8 |
+
+Project Workflow
+# 🔄 Project Workflow
+
+```text
+Raw Dataset
+      │
+      ▼
+Data Understanding
+      │
+      ▼
+Data Cleaning & Preprocessing
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Export Clean Data to SQL Server
+      │
+      ▼
+SQL Business Analysis
+      │
+      ▼
+Customer Segmentation (RFM)
+      │
+      ▼
+Power BI Dashboard (In Progress)
+      │
+      ▼
+Sales Forecasting (Planned)
+      │
+      ▼
+Business Recommendations
+```
+
+# Repository Structure
+
+Flipkart-Business-Analytics/
+
+│
+├── datasets/
+│   ├── Customers.csv
+│   ├── Orders.csv
+│   ├── OrderItems.csv
+│   ├── Products.csv
+│   ├── Categories.csv
+│   ├── Sellers.csv
+│   ├── Payments.csv
+│   ├── Shipments.csv
+│   ├── Returns.csv
+│   ├── Reviews.csv
+│
+├── notebooks/
+│   ├── 01_Data_Cleaning.ipynb
+│   ├── 02_Exploratory_Data_Analysis.ipynb
+│   ├── 03_Feature_Engineering.ipynb
+│   ├── 04_SQL_Data_Export.ipynb
+│   ├── 05_RFM_Segmentation.ipynb
+│   └── 06_Sales_Forecasting.ipynb (later)
+│
+├── sql/
+│   └── SQL_Questions.sql
+│
+├── powerbi/
+│   └── Flipkart_Dashboard.pbix (in progress*)
+│
+├── images/
+│   ├── workflow.png
+│   ├── dashboard.png
+│   └── eda/
+│
+├── README.md
+│
+└── requirements.txt
+
+# Business Questions
+
+## 📊 Exploratory Data Analysis
+
+The exploratory data analysis focuses on answering key business questions across different business domains.
+
+### Revenue Analysis
+
+- What is the total revenue generated?
+- How does monthly revenue change over time?
+- Which states contribute the highest sales?
+- Which product categories generate the most revenue?
+- Which products contribute the highest revenue?
+
+### Customer Analysis
+
+- Who are the highest-value customers?
+- What is the average customer spending?
+- Which customer age groups contribute the most revenue?
+- Which cities have the highest number of customers?
+- How many customers are repeat buyers?
+
+### Product & Category Analysis
+
+- Which products are best-selling?
+- Which categories dominate total sales?
+- Which products receive the highest customer ratings?
+- Which products experience the highest return rates?
+
+### Logistics & Delivery Analysis
+
+- What is the average delivery time?
+- Which shipping methods are used most frequently?
+- How do delivery delays impact customer ratings?
+
+### Payment Analysis
+
+- Which payment methods are most popular?
+- What is the average transaction value by payment type?
+
+### Customer Segmentation
+
+- Who are the Champions?
+- Which customers are At Risk?
+- Which customers are Lost?
+- Which customer segments generate the highest revenue?
+
+  # 📌 Key Findings
+
+- A small group of customers contributes a significant portion of overall revenue.
+- Product category performance varies considerably across different regions.
+- Repeat customers generate higher average order values than first-time buyers.
+- Delivery delays have a noticeable impact on customer ratings and satisfaction.
+- RFM segmentation successfully identifies high-value, loyal, and at-risk customers.
+- Revenue and order volume show clear seasonal and monthly purchasing trends.
+
+  # 🚀 Project Highlights
+
+- Cleaned and transformed a multi-table Flipkart e-commerce dataset using Python.
+- Performed comprehensive exploratory data analysis (EDA) to uncover sales and customer trends.
+- Engineered business-focused features for customer and order analytics.
+- Built a relational SQL Server database for efficient querying and analysis.
+- Solved 40+ real-world business questions using SQL joins, CTEs, window functions, and aggregations.
+- Performed RFM analysis to segment customers based on purchasing behavior.
+- Generated actionable business insights to support data-driven decision making.
+
+  # 📈 Project Status
+
+| Module | Status |
+|---------|:------:|
+| Data Understanding | ✅ Completed |
+| Data Cleaning & Preprocessing | ✅ Completed |
+| Exploratory Data Analysis (EDA) | ✅ Completed |
+| Feature Engineering | ✅ Completed |
+| SQL Database Creation | ✅ Completed |
+| SQL Business Analysis | ✅ Completed |
+| Customer Segmentation (RFM) | ✅ Completed |
+| Business Insights | ✅ Completed |
+| Power BI Dashboard | 🚧 In Progress |
+| Sales Forecasting | ⏳ Planned |
+
+# 👨‍💻 Author
+
+**Prateek Khicher**
+
+🎓 B.Tech, Mechanical Engineering  
+📊 Aspiring Data Analyst | Business Analyst  
+🐍 Python • SQL Server • Power BI • Data Visualization  
+📍 India
+
+If you found this project useful, feel free to ⭐ the repository.
+
+  
+  
