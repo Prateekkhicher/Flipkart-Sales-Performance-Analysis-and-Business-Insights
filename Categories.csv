@@ -1,0 +1,41 @@
+category_id,category_name,department
+CAT001,Electronics,Tech
+CAT002,Mobiles,Office
+CAT003,Fashion,Kids
+CAT004,Home & Kitchen,Daily Needs
+CAT005,Beauty,Daily Needs
+CAT006,Grocery,Office
+CAT007,Books,Tech
+CAT008,Sports,Kids
+CAT009,Toys,Lifestyle
+CAT010,Kids,Tech
+CAT011,Automotive,Entertainment
+CAT012,Appliances,Auto
+CAT013,Computers,Kids
+CAT014,Laptops,Office
+CAT015,Audio,Kids
+CAT016,Watches,Office
+CAT017,Jewelry,Entertainment
+CAT018,Footwear,Lifestyle
+CAT019,Furniture,Office
+CAT020,Home Decor,Daily Needs
+CAT021,Health,Entertainment
+CAT022,Personal Care,Home
+CAT023,Office Supplies,Lifestyle
+CAT024,Stationery,Auto
+CAT025,Garden,Office
+CAT026,Kitchenware,Kids
+CAT027,Fitness,Daily Needs
+CAT028,Gaming,Office
+CAT029,Smart Devices,Entertainment
+CAT030,Cameras,Daily Needs
+CAT031,Travel,Daily Needs
+CAT032,Baby Care,Lifestyle
+CAT033,Pet Supplies,Tech
+CAT034,Tools,Entertainment
+CAT035,Industrial,Auto
+CAT036,Movies,Tech
+CAT037,Music,Office
+CAT038,Gifting,Office
+CAT039,Storage,Home
+CAT040,Cleaning,Kids
